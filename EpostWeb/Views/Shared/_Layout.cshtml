@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="MediaCenter, Template, eCommerce">
+    <meta name="robots" content="all">
+    <title>Bigshop premium HTML5 & CSS3 Template</title>
+    <!-- Bootstrap Core CSS -->
+
+
+    <link rel="stylesheet" href="~/Assets/css/bootstrap.min.css">
+    <!-- Customizable CSS -->
+    <link rel="stylesheet" href="~/Assets/css/main.css">
+    <link rel="stylesheet" href="~/Assets/css/simple-line-icons.css">
+    <link rel="stylesheet" href="~/Assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/Assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="~/Assets/css/animate.min.css">
+    <link rel="stylesheet" href="~/Assets/css/rateit.css">
+    <link rel="stylesheet" href="~/Assets/css/bootstrap-select.min.css">
+    <!-- Icons/Glyphs -->
+    <link rel="stylesheet" href="~/Assets/css/font-awesome.css">
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+<body class="cnt-home">
+    <!-- ============================================== HEADER ============================================== -->
+    <header class="header-style-1">
+
+        <!-- ============================================== TOP MENU ============================================== -->
+        <div class="top-bar animate-dropdown">
+            <div class="container">
+                <div class="header-top-inner">
+                    <div class="cnt-account">
+                        <ul class="list-unstyled">
+                            <li><a href="~/Home/MyAccount">@EpostWeb.Resources.HomeTexts.MyAccaunt</a></li>
+                            <li><a href="~/Home/Checkout">@EpostWeb.Resources.HomeTexts.Checkout</a></li>
+                            <li><a href="~/Home/Wishlist">@EpostWeb.Resources.HomeTexts.Wishlist</a></li>
+                            <li><a href="~/Home/ShoppingCart">@EpostWeb.Resources.HomeTexts.MyCart</a></li>
+                            <li><a href="~/Home/Signin">@EpostWeb.Resources.HomeTexts.Login</a></li>
+                            @* <li><a href="~/Home/Index">Logout</a></li>*@
+                        </ul>
+                    </div>
+                    <!-- /.cnt-account -->
+                    <div class="cnt-block">
+                        <ul class="list-unstyled list-inline">
+                            <li class="dropdown dropdown-small">
+                                <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown"><span class="value">USD </span><b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">AZN</a></li>
+                                    <li><a href="#">USD</a></li>
+                                    <li><a href="#">EUR</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown dropdown-small">
+                                <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown"><span class="value">@EpostWeb.Resources.HomeTexts.Language </span><b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">@Html.ActionLink("AZ", "Change", "Home", new { LanguageAbbrevation = "az" }, null)</a></li>
+                                    <li><a href="#">@Html.ActionLink("EN", "Change", "Home", new { LanguageAbbrevation = "en" }, null)</a></li>
+                                    <li><a href="#">@Html.ActionLink("RU", "Change", "Home", new { LanguageAbbrevation = "ru" }, null)</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- /.list-unstyled -->
+                    </div>
+                    <!-- /.cnt-cart -->
+                    <div class="clearfix"></div>
+                </div>
+                <!-- /.header-top-inner -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.header-top -->
+        <!-- ============================================== TOP MENU : END ============================================== -->
+        <div class="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 logo-holder">
+                        <div class="logo"> <a href="~/Home/Index"> <img src="~/Assets/images/logo.png" alt="logo"> </a> </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 top-search-holder">
+                        <div class="search-area">
+                            <form>
+                                <div class="control-group">
+                                    <ul class="categories-filter animate-dropdown">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="category.html">@EpostWeb.Resources.HomeTexts.Category <b class="caret"></b></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="menu-header">Computer</li>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Desktops</a></li>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Electronics</a></li>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Monitors</a></li>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Tablets</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <input class="search-field" placeholder="@EpostWeb.Resources.HomeTexts.Search" />
+                                    <a class="search-button" href="#"></a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 animate-dropdown top-cart-row">
+                        <div class="dropdown dropdown-cart">
+                            <a href="#" class="dropdown-toggle lnk-cart" data-toggle="dropdown">
+                                <div class="items-cart-inner">
+                                    <div class="basket">
+                                        <img src="~/Assets/images/cart.png" alt="">
+                                        <span>@EpostWeb.Resources.HomeTexts.MyCart</span>
+                                    </div>
+                                    <div class="basket-item-count"><span class="count">2</span></div>
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="cart-item product-summary">
+                                        <div class="row">
+                                            <div class="col-xs-4">
+                                                <div class="image"> <a href="detail.html"><img src="~/Storage/images/products/cart.jpg" alt=""></a> </div>
+                                            </div>
+                                            <div class="col-xs-7">
+                                                <h3 class="name"><a href="detail.html">Simple Product</a></h3>
+                                                <div class="price">$600.00</div>
+                                            </div>
+                                            <div class="col-xs-1 action"> <a href="#"><i class="fa fa-trash"></i></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <hr>
+                                    <div class="clearfix cart-total">
+                                        <div class="pull-right"> <span class="text">Sub Total :</span><span class='price'>$600.00</span> </div>
+                                        <div class="clearfix"></div>
+                                        <a href="checkout.html" class="btn btn-upper btn-primary btn-block m-t-20">@EpostWeb.Resources.HomeTexts.Checkout</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @Html.Partial("NavbarPartial")
+    </header>
+    @RenderBody()
+    <div class="container">
+        @Html.Partial("LogosPartial")
+    </div>
+    <footer id="footer" class="footer color-bg">
+        <div class="copyright-bar">
+            <div class="container">
+                <div class="col-xs-12 col-sm-6 no-padding copyright">
+                    <span>
+                        © 2018 Epost.  All rights reserved.
+                    </span>
+                </div>
+                <div class="col-xs-12 col-sm-6 no-padding">
+                    <div class="clearfix payment-methods">
+                        <ul>
+                            <li><img src="~/Assets/images/payments/1.png" alt=""></li>
+                            <li><img src="~/Assets/images/payments/3.png" alt=""></li>
+                            <li><img src="~/Assets/images/payments/4.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <!-- /.payment-methods -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================================= FOOTER : END============================================================= -->
+    <script>
+        var countries = [{
+            name: 'Alabama',
+            url: 'category.html',
+        }, {
+            name: 'Alaska',
+            url: 'category.html',
+        }, {
+            name: 'Arizona',
+            url: 'category.html',
+        }, {
+            name: 'Arkansas',
+            url: 'category.html',
+        }, {
+            name: 'California',
+            url: 'category.html',
+        }, {
+            name: 'Colorado',
+            url: 'category.html',
+        }, {
+            name: 'Connecticut',
+            url: 'category.html',
+        }, {
+            name: 'Delaware',
+            url: 'category.html',
+        }, {
+            name: 'Florida',
+            url: 'category.html',
+        }, {
+            name: 'Georgia',
+            url: 'category.html',
+        }, {
+            name: 'Hawaii',
+            url: 'category.html',
+        }, {
+            name: 'Idaho',
+            url: 'category.html',
+        }
+        ];
+
+
+        function autocomplete(inp, arr) {
+            /*the autocomplete function takes two arguments,
+            the text field element and an array of possible autocompleted values:*/
+            var currentFocus;
+            /*execute a function when someone writes in the text field:*/
+            inp.addEventListener("input", function (e) {
+                var a, b, c, i, val = this.value;
+                /*close any already open lists of autocompleted values*/
+                closeAllLists();
+                if (!val) { return false; }
+                currentFocus = -1;
+                /*create a DIV element that will contain the items (values):*/
+                a = document.createElement("ul");
+                a.setAttribute("id", this.id + "autocomplete-list");
+                a.setAttribute("class", "autocomplete-items nav");
+                /*append the DIV element as a child of the autocomplete container:*/
+                $(".yamm.megamenu-horizontal .nav1").hide();
+                $(".yamm.megamenu-horizontal").append(a);
+                /*for each item in the array...*/
+                for (i = 0; i < arr.length; i++) {
+                    console.log(arr[i]['name']);
+                    /*check if the item starts with the same letters as the text field value:*/
+                    if (arr[i]['name'].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                        /*create a DIV element for each matching element:*/
+                        b = document.createElement("li");
+                        b.setAttribute("class", "dropdown menu-item");
+                        c = document.createElement("a");
+                        c.setAttribute("class", "dropdown-toggle");
+                        c.setAttribute("href", arr[i]['url']);
+                        /*make the matching letters bold:*/
+                        c.innerHTML = "<strong>" + arr[i]['name'].substr(0, val.length) + "</strong>";
+                        c.innerHTML += arr[i]['name'].substr(val.length);
+                        /*insert a input field that will hold the current array item's value:*/
+                        //     c.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                        /*execute a function when someone clicks on the item value (DIV element):*/
+                        /* c.addEventListener("click", function(e) {
+                             /!*insert the value for the autocomplete text field:*!/
+                             inp.value = this.getElementsByTagName("input")[0].value;
+                             /!*close the list of autocompleted values,
+                             (or any other open lists of autocompleted values:*!/
+                             closeAllLists();
+                         });*/
+                        b.appendChild(c);
+                        a.appendChild(b);
+                    }
+                }
+            });
+            /*execute a function presses a key on the keyboard:*/
+            inp.addEventListener("keydown", function (e) {
+                var x = document.getElementById(this.id + "autocomplete-list");
+                if (x) x = x.getElementsByTagName("div");
+                if (e.keyCode == 40) {
+                    /*If the arrow DOWN key is pressed,
+                    increase the currentFocus variable:*/
+                    currentFocus++;
+                    /*and and make the current item more visible:*/
+                    addActive(x);
+                } else if (e.keyCode == 38) { //up
+                    /*If the arrow UP key is pressed,
+                    decrease the currentFocus variable:*/
+                    currentFocus--;
+                    /*and and make the current item more visible:*/
+                    addActive(x);
+                } else if (e.keyCode == 13) {
+                    /*If the ENTER key is pressed, prevent the form from being submitted,*/
+                    e.preventDefault();
+                    if (currentFocus > -1) {
+                        /*and simulate a click on the "active" item:*/
+                        if (x) x[currentFocus].click();
+                    }
+                }
+            });
+            function addActive(x) {
+                /*a function to classify an item as "active":*/
+                if (!x) return false;
+                /*start by removing the "active" class on all items:*/
+                removeActive(x);
+                if (currentFocus >= x.length) currentFocus = 0;
+                if (currentFocus < 0) currentFocus = (x.length - 1);
+                /*add class "autocomplete-active":*/
+                x[currentFocus].classList.add("autocomplete-active");
+            }
+            function removeActive(x) {
+                /*a function to remove the "active" class from all autocomplete items:*/
+                for (var i = 0; i < x.length; i++) {
+                    x[i].classList.remove("autocomplete-active");
+                }
+            }
+            function closeAllLists(elmnt) {
+                /*close all autocomplete lists in the document,
+                except the one passed as an argument:*/
+                var x = document.getElementsByClassName("autocomplete-items");
+                for (var i = 0; i < x.length; i++) {
+                    if (elmnt != x[i] && elmnt != inp) {
+                        x[i].parentNode.removeChild(x[i]);
+                    }
+                }
+
+                $(".yamm.megamenu-horizontal .nav1").show();
+            }
+            /*execute a function when someone clicks in the document:*/
+            document.addEventListener("click", function (e) {
+                // closeAllLists(e.target);
+            });
+        }
+        autocomplete(document.getElementById("companies"), countries);
+    </script>
+    <!-- JavaScripts placed at the end of the document so the pages load faster -->
+
+
+    <script src="~/Assets/js/jquery-1.11.1.min.js"></script>
+    <script src="~/Assets/js/bootstrap.min.js"></script>
+    <script src="~/Assets/js/bootstrap-hover-dropdown.min.js"></script>
+    <script src="~/Assets/js/owl.carousel.min.js"></script>
+    <script src="~/Assets/js/echo.min.js"></script>
+    <script src="~/Assets/js/jquery.easing-1.3.min.js"></script>
+    <script src="~/Assets/js/bootstrap-slider.min.js"></script>
+    <script src="~/Assets/js/jquery.rateit.min.js"></script>
+    <script type="text/javascript" src="~/Assets/js/lightbox.min.js"></script>
+    <script src="~/Assets/js/bootstrap-select.min.js"></script>
+    <script src="~/Assets/js/wow.min.js"></script>
+    <script src="~/Assets/js/scripts.js"></script>
+</body>
+</html>

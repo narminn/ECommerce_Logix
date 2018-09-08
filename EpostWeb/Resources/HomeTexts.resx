@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Hesab Parametrləri</value>
+  </data>
+  <data name="Addresses" xml:space="preserve">
+    <value>Ünvanlar</value>
+  </data>
+  <data name="AddressLine" xml:space="preserve">
+    <value>Ünvan</value>
+  </data>
+  <data name="AddToCart" xml:space="preserve">
+    <value>Əlavə Et</value>
+  </data>
+  <data name="AlreadyRegistered" xml:space="preserve">
+    <value>Artıq qeydiyyatdan keçmisiniz?</value>
+  </data>
+  <data name="Availability" xml:space="preserve">
+    <value>Mövcudluq</value>
+  </data>
+  <data name="BestSeller" xml:space="preserve">
+    <value>Ən Çox Satılanlar</value>
+  </data>
+  <data name="Brand" xml:space="preserve">
+    <value>Marka</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Ləğv et</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kateqoriya</value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>Yoxlama</value>
+  </data>
+  <data name="CheckoutAsGuest" xml:space="preserve">
+    <value>Qonaq</value>
+  </data>
+  <data name="CheckoutMethod" xml:space="preserve">
+    <value>Yoxlanış metodu</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Şəhər</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Rəng</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Şirkət</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Təsdiqlə</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Şifrəni Təsdiqlə</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Davam Et</value>
+  </data>
+  <data name="ContinueShopping" xml:space="preserve">
+    <value>Alış-verişə Davam Et</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Ölkə</value>
+  </data>
+  <data name="CreateAccount" xml:space="preserve">
+    <value>Yeni hesab yarat</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>Yeni hesabınızı yaradın</value>
+  </data>
+  <data name="CreditCardNumber" xml:space="preserve">
+    <value>Kartın nömrəsi</value>
+  </data>
+  <data name="CustomerReviews" xml:space="preserve">
+    <value>Müştəri Rəyi</value>
+  </data>
+  <data name="CVVCode" xml:space="preserve">
+    <value>CVV Kodu</value>
+  </data>
+  <data name="DaysAgo" xml:space="preserve">
+    <value>gün əvvəl</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Təsvir</value>
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>Detallı</value>
+  </data>
+  <data name="EasyAccess" xml:space="preserve">
+    <value>Sifariş keçmişinizə və statusunuza asan keçid </value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Yenilə</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>E-poçt ünvanı</value>
+  </data>
+  <data name="ExpiryDate" xml:space="preserve">
+    <value>Son istifadə tarixi</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Sual-cavab</value>
+  </data>
+  <data name="FastAndEasyCheckOut" xml:space="preserve">
+    <value>Sürətli və asan yoxlama</value>
+  </data>
+  <data name="FeaturedProducts" xml:space="preserve">
+    <value>Önə  Çıxan Məhsullar</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="ForgotYourPassword" xml:space="preserve">
+    <value>Şifrənizi unutmusunuz</value>
+  </data>
+  <data name="FrequentlyAskedQuestions" xml:space="preserve">
+    <value>Tez-tez soruşulan suallar</value>
+  </data>
+  <data name="Grandtotal" xml:space="preserve">
+    <value>Cəmi Qiymət</value>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>Tor</value>
+  </data>
+  <data name="GuestRegisterLogin" xml:space="preserve">
+    <value>Qonaq və ya qeydiyyat girişi</value>
+  </data>
+  <data name="HelloWelcome" xml:space="preserve">
+    <value>Salam, hesabınıza xoş gəldiniz</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Əsas</value>
+  </data>
+  <data name="HotDeals" xml:space="preserve">
+    <value>Endirimdə Olanlar</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Şəkil</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Soyad</value>
+  </data>
+  <data name="LastUpdated" xml:space="preserve">
+    <value>Ən son yeniləndi:</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Siyahı</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Çıxış</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Mesajlar</value>
+  </data>
+  <data name="MyAccaunt" xml:space="preserve">
+    <value>Mənim Hesabım</value>
+  </data>
+  <data name="MyCart" xml:space="preserve">
+    <value>Səbət</value>
+  </data>
+  <data name="MyWishlist" xml:space="preserve">
+    <value>Mənim seçdiklərim</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="NewAddress" xml:space="preserve">
+    <value>Yeni Ünvan</value>
+  </data>
+  <data name="NewProducts" xml:space="preserve">
+    <value>Yeni Məhsullar</value>
+  </data>
+  <data name="NotCompare" xml:space="preserve">
+    <value>Müqayisə ediləcək məhsul(lar) yoxdur</value>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>Səhifələr</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Şifrə</value>
+  </data>
+  <data name="PaymentMethods" xml:space="preserve">
+    <value>Ödəmə Metodları</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Telefon nömrəsi</value>
+  </data>
+  <data name="PleaseLoginBelow" xml:space="preserve">
+    <value>Zəhmət olmasa aşağıdan daxil olun</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>Seçin</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Qiymət</value>
+  </data>
+  <data name="PriceHighLow" xml:space="preserve">
+    <value>Qiymət: Yuxarıdan Aşağıya</value>
+  </data>
+  <data name="PriceLowHigh" xml:space="preserve">
+    <value>Qiymət: Aşağıdan Yuxarıya </value>
+  </data>
+  <data name="PriceSlider" xml:space="preserve">
+    <value>Qiymət Aralığı</value>
+  </data>
+  <data name="ProductAToZ" xml:space="preserve">
+    <value>Məhsul: A-dan Z-yə</value>
+  </data>
+  <data name="ProductComparison" xml:space="preserve">
+    <value>Məhsulların müqayisəsi</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Məhsulun Adı</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Məhsullar</value>
+  </data>
+  <data name="ProductTags" xml:space="preserve">
+    <value>Məhsul Etiketləri</value>
+  </data>
+  <data name="Productİnfo" xml:space="preserve">
+    <value>Məhsul Haqqında</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Keyfiyyət</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Ədəd</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Qeydiyyat keç</value>
+  </data>
+  <data name="RegisterAndSaveTime" xml:space="preserve">
+    <value>Qeydiyyatdan keç və zaman qazan</value>
+  </data>
+  <data name="RegisterForFuture" xml:space="preserve">
+    <value>Gələcəkdəki rahatlığınız üçün qeydiyyat keçin</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Məni xatırla</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Rəylər</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Yadda saxla</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Axtar</value>
+  </data>
+  <data name="ShippingAndTax" xml:space="preserve">
+    <value>Göndərilmə və vergini qeyd edin</value>
+  </data>
+  <data name="ShippingAndTaxDestination" xml:space="preserve">
+    <value>Göndərilmə və vergi üçün yer seçin</value>
+  </data>
+  <data name="ShopBy" xml:space="preserve">
+    <value>Alış-veriş edin</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Göstər</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Daxil Olun</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>Qeydiyyatdan keç</value>
+  </data>
+  <data name="SimilarProducts" xml:space="preserve">
+    <value>Oxşar Məhsullar</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>Sırala</value>
+  </data>
+  <data name="Star" xml:space="preserve">
+    <value>Ulduz</value>
+  </data>
+  <data name="Stars" xml:space="preserve">
+    <value>Ulduz</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Göndər</value>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Tək Qiymət</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Xülasə</value>
+  </data>
+  <data name="TopCategories" xml:space="preserve">
+    <value>Populyar Kateqoriyalar</value>
+  </data>
+  <data name="UpdateCart" xml:space="preserve">
+    <value>Səbətini Yenilə</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Dəyər</value>
+  </data>
+  <data name="Wishlist" xml:space="preserve">
+    <value>Seçilmişlər</value>
+  </data>
+  <data name="WriteReview" xml:space="preserve">
+    <value>Öz Rəyini Bildir </value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>Adınız</value>
+  </data>
+  <data name="YourReview" xml:space="preserve">
+    <value>Rəyiniz</value>
+  </data>
+  <data name="ZipPostalCode" xml:space="preserve">
+    <value>Zip/Poçt kodu</value>
+  </data>
+</root>

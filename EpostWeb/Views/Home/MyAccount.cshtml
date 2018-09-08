@@ -1,0 +1,156 @@
+﻿
+@{
+    ViewBag.Title = "MyAccount";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <!-- ============================================== HEADER : END ============================================== -->
+    <div class="breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-inner">
+                <ul class="list-inline list-unstyled">
+                    <li><a href="~/Home/Index">@EpostWeb.Resources.HomeTexts.Home</a></li>
+                    <li class='active'>@EpostWeb.Resources.HomeTexts.MyAccaunt</li>
+                </ul>
+            </div><!-- /.breadcrumb-inner -->
+        </div><!-- /.container -->
+    </div><!-- /.breadcrumb -->
+    <div class="body-content outer-top-xs">
+        <div class='container'>
+            <div class='row single-product'>
+                <div class='col-md-12'>
+
+                    <div class="account-tabs inner-bottom-xs  wow fadeInUp">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <ul id="account-tabs" class="nav nav-tabs">
+                                    <li class="active"><a data-toggle="tab" href="#description">@EpostWeb.Resources.HomeTexts.Messages (0)</a></li>
+                                    <li><a data-toggle="tab" href="#adresses">@EpostWeb.Resources.HomeTexts.Addresses</a></li>
+                                    <li><a data-toggle="tab" href="#account_settings">@EpostWeb.Resources.HomeTexts.AccountSettings</a></li>
+                                    <li><a data-toggle="tab" href="#payment_methods">@EpostWeb.Resources.HomeTexts.PaymentMethods</a></li>
+                                </ul><!-- /.nav-tabs #product-tabs -->
+                                <div class="tab-content">
+
+                                    <div id="description" class="tab-pane in active">
+                                        <div class="account-tab">
+                                            <div class="alert alert-info" role="alert">
+                                                <p>Hello</p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div><!-- /.tab-pane -->
+                                    <div id="adresses" class="tab-pane">
+                                        <div class="account-tab">
+                                            <ul class="addressList row">
+                                                <li class="address col-md-3">
+                                                    <div class="panel panel--address">
+                                                        <div class="panel-body">
+                                                            <h5 class="address-title">@EpostWeb.Resources.HomeTexts.Addresses</h5>
+                                                            <ul class="address-details address-details--postal">
+                                                                <li>a</li>
+                                                                <li>a1a1a1</li>
+                                                                <li></li>
+                                                                <li>aa, Alabama a1111</li>
+                                                                <li>United States</li>
+                                                            </ul>
+                                                            <dl class="address-details">
+                                                                <dt class="address-label">@EpostWeb.Resources.HomeTexts.PhoneNumber:</dt>
+                                                                <dd class="address-description">123456789</dd>
+                                                            </dl>
+                                                            <div class="form-actions">
+                                                                <a class="btn btn-success" href="~/Home/MyAddress">@EpostWeb.Resources.HomeTexts.Edit</a>
+                                                                <button type="submit" class="btn btn-danger">@EpostWeb.Resources.HomeTexts.Delete</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="address col-md-3">
+                                                    <a class="panel panel--address panel--newAddress" href="~/Home/MyAddress">
+                                                        <span class="panel-body">
+                                                            <span class="address-addNew">
+                                                                <span class="address-symbol">+</span>
+                                                                <h5 class="address-title">@EpostWeb.Resources.HomeTexts.NewAddress</h5>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div><!-- /.product-tab -->
+                                    </div><!-- /.tab-pane -->
+                                    <div id="account_settings" class="tab-pane">
+                                        <div class="account-tab">
+                                            <form class="register-form outer-top-xs" role="form">
+                                                <div class="form-group">
+                                                    <label class="info-title">@EpostWeb.Resources.HomeTexts.FirstName <span>*</span></label>
+                                                    <input type="text" class="form-control unicase-form-control text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="info-title">@EpostWeb.Resources.HomeTexts.LastName<span>*</span></label>
+                                                    <input type="text" class="form-control unicase-form-control text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="info-title">@EpostWeb.Resources.HomeTexts.PhoneNumber <span>*</span></label>
+                                                    <input type="text" class="form-control unicase-form-control text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="info-title">@EpostWeb.Resources.HomeTexts.EmailAddress <span>*</span></label>
+                                                    <input type="text" class="form-control unicase-form-control text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="info-title">@EpostWeb.Resources.HomeTexts.Password <span>*</span></label>
+                                                    <input type="password" class="form-control unicase-form-control text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="info-title">@EpostWeb.Resources.HomeTexts.ConfirmPassword <span>*</span></label>
+                                                    <input type="password" class="form-control unicase-form-control text-input">
+                                                </div>
+                                                <button type="submit" class="btn-upper btn btn-success checkout-page-button">@EpostWeb.Resources.HomeTexts.Submit</button>
+                                            </form>
+                                        </div><!-- /.product-tab -->
+                                    </div><!-- /.tab-pane -->
+                                    <div id="payment_methods" class="tab-pane">
+                                        <div class="account-tab">
+                                            <ul class="addressList row">
+                                                <li class="address col-md-3">
+                                                    <div class="panel panel--address">
+                                                        <div class="panel-body">
+                                                            <h5 class="address-title">1234 5678 9876 5432</h5>
+                                                            <ul class="address-details address-details--postal">
+                                                                <li>01/12</li>
+                                                            </ul>
+                                                            <div class="form-actions">
+                                                                <a class="btn btn-success" href="~/Home/MyPaymentMethod">@EpostWeb.Resources.HomeTexts.Edit</a>
+                                                                <button type="submit" class="btn btn-danger">@EpostWeb.Resources.HomeTexts.Delete</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="address col-md-3">
+                                                    <a class="panel panel--address panel--newAddress" href="~/Home/MyPaymentMethod">
+                                                        <span class="panel-body">
+                                                            <span class="address-addNew">
+                                                                <span class="address-symbol">+</span>
+                                                                <h5 class="address-title">@EpostWeb.Resources.HomeTexts.NewAddress</h5>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div><!-- /.product-tab -->
+                                    </div><!-- /.tab-pane -->
+                                </div><!-- /.tab-content -->
+                            </div><!-- /.col -->
+                        </div><!-- /.row -->
+                    </div><!-- /.product-tabs -->
+
+                </div><!-- /.col -->
+                <div class="clearfix"></div>
+            </div><!-- /.row -->
+          
+        </div><!-- /.container -->
+    </div><!-- /.body-content -->
+    <!-- ============================================================= FOOTER ============================================================= -->
+
+
+

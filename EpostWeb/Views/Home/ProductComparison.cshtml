@@ -1,0 +1,154 @@
+﻿
+@{
+    ViewBag.Title = "ProductComparison";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <!-- ============================================== HEADER : END ============================================== -->
+    <div class="breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-inner">
+                <ul class="list-inline list-unstyled">
+                    <li><a href="~/Home/Index">@EpostWeb.Resources.HomeTexts.Home</a></li>
+                    <li class='active'>@EpostWeb.Resources.HomeTexts.ProductComparison</li>
+                </ul>
+            </div><!-- /.breadcrumb-inner -->
+        </div><!-- /.container -->
+    </div><!-- /.breadcrumb -->
+    <div class="body-content outer-top-xs">
+        <div class="container">
+            <div class="product-comparison">
+                <div>
+                    <h1 class="page-title text-center heading-title">@EpostWeb.Resources.HomeTexts.ProductComparison</h1>
+                    <div class="table-responsive">
+                        <table class="table compare-table inner-top-vs">
+                            <tr>
+                                <th>@EpostWeb.Resources.HomeTexts.Products</th>
+                                <td>
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <div class="image">
+                                                <a href="detail.html">
+                                                    <img alt="" src="~/Storage//images/products/p1.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="product-info text-left">
+                                                <h3 class="name"><a href="detail.html">Lorem Ipsum</a></h3>
+                                                <div class="action">
+                                                    <a class="lnk btn btn-primary" href="#">@EpostWeb.Resources.HomeTexts.AddToCart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <div class="image">
+                                                <a href="detail.html">
+                                                    <img alt="" src="~/Storage//images/products/p2.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="product-info text-left">
+                                                <h3 class="name"><a href="detail.html">Lorem Ipsum</a></h3>
+                                                <div class="action">
+                                                    <a class="lnk btn btn-primary" href="#">@EpostWeb.Resources.HomeTexts.AddToCart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <div class="image">
+                                                <a href="detail.html">
+                                                    <img alt="" src="~/Storage//images/products/p4.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="product-info text-left">
+                                                <h3 class="name"><a href="detail.html">Lorem Ipsum</a></h3>
+                                                <div class="action">
+                                                    <a class="lnk btn btn-primary" href="#">@EpostWeb.Resources.HomeTexts.AddToCart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <div class="image">
+                                                <a href="detail.html">
+                                                    <img alt="" src="~/Storage//images/products/p5.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="product-info text-left">
+                                                <h3 class="name"><a href="detail.html">Lorem Ipsum</a></h3>
+                                                <div class="action">
+                                                    <a class="lnk btn btn-primary" href="#">@EpostWeb.Resources.HomeTexts.AddToCart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>@EpostWeb.Resources.HomeTexts.Price</th>
+                                <td>
+                                    <div class="product-price">
+                                        <span class="price"> $300.00 </span>
+                                        <span class="price-before-discount">$500.00</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="product-price">
+                                        <span class="price"> $350.00 </span>
+                                        <span class="price-before-discount">$500.00</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="product-price">
+                                        <span class="price"> $400.00 </span>
+                                        <span class="price-before-discount">$500.00</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="product-price">
+                                        <span class="price"> $3600.00 </span>
+                                        <span class="price-before-discount">$500.00</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>@EpostWeb.Resources.HomeTexts.Description</th>
+                                <td><p class="text">Proin semper eros ac posuere ultrices. Nulla quis mi in risus volutpat blandit vestibulum in lorem. In euismod laoreet sapien vel gravida.  Proin sem per eros ac posuere ultrices. Nulla quis mi in risus.<p></td>
+                                <td><p class="text">Proin semper eros ac posuere ultrices. Nulla quis mi in risus volutpat blandit vestibulum in lorem. In euismod laoreet sapien vel gravida.  Proin sem per eros ac posuere ultrices.<p> </td>
+                                <td><p class="text">Proin semper eros ac posuere ultrices. Nulla quis mi in risus volutpat blandit vestibulum in lorem. In euismod laoreet sapien vel gravida.<p></td>
+                                <td><p class="text">Proin semper eros ac posuere ultrices. Nulla quis mi in risus volutpat blandit vestibulum in lorem. In euismod laoreet sapien vel gravida.  Proin sem per eros ac posuere ultrices. Nulla quis mi in risus.<p></td>
+                            </tr>
+                            <tr>
+                                <th>@EpostWeb.Resources.HomeTexts.Availability</th>
+                                <td><p class="in-stock">In Stock</p></td>
+                                <td><p class="in-stock">In Stock</p></td>
+                                <td><p class="in-stock">In Stock</p></td>
+                                <td><p class="in-stock">In Stock</p></td>
+                            </tr>
+                            <tr>
+                                <th>@EpostWeb.Resources.HomeTexts.Remove</th>
+                                <td class='text-center'><a href="#" class="remove-icon"><i class="fa fa-times"></i></a></td>
+                                <td class='text-center'><a href="#" class="remove-icon"><i class="fa fa-times"></i></a></td>
+                                <td class='text-center'><a href="#" class="remove-icon"><i class="fa fa-times"></i></a></td>
+                                <td class='text-center'><a href="#" class="remove-icon"><i class="fa fa-times"></i></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================= FOOTER ============================================================= -->
+
+
+
